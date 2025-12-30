@@ -23,7 +23,7 @@ function About() {
         setShow(true)
     }, [])
 
-    return (<div className={`md:flex items-center gap-10 px-5 lg:px-10 py-5 transition-all duration-2000 ease-in ${show ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-75"}`}>
+    return (<div className={`md:flex items-center gap-10 px-5 lg:px-10 py-10 transition-all duration-2000 ease-in ${show ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-75"}`}>
 
         <div className="relative w-full sm:h-screen flex justify-center items-center">
             <img src={AboutImage} alt="About-Image" className="sm:w-3/4 md:w-full xl:w-3/4 h-[75%] sm:h-[90%] mt-20 sm:mt-10" />

@@ -200,7 +200,7 @@ function Blog() {
             </div>
         </div>
 
-        <div className="bg-orange-600 mt-10 p-10 md:w-10/12 flex flex-wrap lg:flex-nowrap items-center justify-center sm:justify-between">
+        <div className="bg-orange-600 mt-10 mb-5 p-10 md:w-10/12 flex flex-wrap lg:flex-nowrap items-center justify-center sm:justify-between">
             <div className="text-white">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">Looking for a dream home?</h1>
                 <p className="mt-5 text-base md:text-lg">We can help you realize your dream of a new home</p>
